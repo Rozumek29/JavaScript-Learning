@@ -1,2 +1,2 @@
 // alert() - wyświetla powiadomienie na stronie w formie alertu.
-alert("Hello World")
+alert(12>6)
