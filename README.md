@@ -4,6 +4,7 @@
 |Name|Date|Description|
 |---|---|---|
 |Lekcja 1|09.09.2021|Lekcja Wprowadzająca.|
+|Lekcja 2|14.09.2021|Ćwiczenia z alertów, wprowadzania dancyh i wstrzykiwania na stronę.|
 ***
 ### Cheat sheet
 >link to HTML
