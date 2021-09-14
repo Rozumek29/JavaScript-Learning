@@ -7,10 +7,14 @@
 |Lekcja 2|14.09.2021|Ćwiczenia z alertów, wprowadzania dancyh i wstrzykiwania na stronę.|
 ***
 ### Cheat sheet
->link to HTML
+
+>Link to HTML
 >```HTML 
 ><script type="text/javascript" src="script/script.js"></script>
 >```
+>Admin Password to 313:
+>>HJer56UT^&
+
 |Name of function|Short description|
 |---|---|
 |alert(message)|Wyświetla alert o treści **message** na stronie|
