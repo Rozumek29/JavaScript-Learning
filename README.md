@@ -6,6 +6,12 @@
 |Lekcja 1|09.09.2021|Lekcja Wprowadzająca.|
 |Lekcja 2|14.09.2021|Ćwiczenia z alertów, wprowadzania dancyh i wstrzykiwania na stronę.|
 |Lekcja 3|14.09.2021|Ćwiczenia z zmiennych, instrukcji warunkowych itp|
+|Lekcja 4|14.09.2021|Ćwiczenia z document.write()|
+|Lekcja 5|14.09.2021|Ćwiczenia z podmieniania testu|
+|Lekcja 6|16.09.2021|Ćwiczenia z instrukcji warunkowych|
+|Lekcja 7|16.09.2021|Ćwiczenia z switch case|
+|Lekcja 8|16.09.2021|Ćwiczenia z pętli|
+|Lekcja 9|16.08.2021|Budowanie tabeli z pomocą pętli|
 ***
 ### Cheat sheet
 
@@ -13,7 +19,7 @@
 >```HTML 
 ><script type="text/javascript" src="script/script.js"></script>
 >```
->Admin Password to 313:
+>Admin Password to 313 class:
 >>HJer56UT^&
 
 |Name of function|Short description|
