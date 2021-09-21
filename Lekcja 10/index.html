@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lekcja 10 - 21.09.2021</title>
+    <link href="main.css" type="text/css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Kwadrat</td>
+            <td>Trójkąt</td>
+            <td>Trapez</td>
+            <td>Koło</td>
+        </tr>
+        <tr>
+            <td><img src="img/kwadrat.png"></td>
+            <td><img src="img/trojkat.png"></td>
+            <td><img src="img/trapez.png"></td>
+            <td><img src="img/kolo.png"></td>
+        </tr>
+        <tr>
+            <td><label>Podaj a</label><input type="number" id="kw_a"><br><input type="submit" onclick="kwadrat()"></td>
+            <td><label>Podaj a</label><input type="number" id="tr_a"><br><label>Podaj h</label><input type="number" id="tr_h"><br><input type="submit" onclick="trojkat()"></td>
+            <td><label>Podaj a</label><input type="number" id="tp_a"><br><label>Podaj b</label><input type="number" id="tp_b"><br><label>Podaj c</label><input type="number" id="tp_c"><br><label>Podaj h</label><input type="number" id="tp_h"><br><input type="submit" onclick="trapez()"></td>
+            <td><label>Podaj r</label><input type="number" id="ko_r"><br><input type="submit" onclick="kolo()"></td>
+        </tr>
+        <tr>
+            <td id="kwadrat_wynik"><h5>Wynik</h5></td>
+            <td id="trojkat_wynik"><h5>Wynik</h5></td>
+            <td id="trapez_wynik"><h5>Wynik</h5></td>
+            <td id="kolo_wynik"><h5>Wynik</h5></td>
+        </tr>
+    </table>
+</body>
+</html>
