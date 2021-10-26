@@ -1,0 +1,3 @@
+1. Wyciągnij sam adres email z zmiennej mail = "<a href='mailto:lukasz.fimiak@zspwrzesnia.pl'>Moj mail</a>"
+2. Sprawdź czy w tekście podanym przez użytkownika znajduję się wyraz również podany przez użytkownika
+3. Sprawdź ile samogłosek snajduję się w tekście podanym przez uzytkownika.
