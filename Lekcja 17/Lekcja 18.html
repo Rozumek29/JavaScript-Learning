@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>STYLE</title>
+    <link href="main.css" type="text/css" rel="stylesheet"/>
+    <script src="script.js"></script>
+</head>
+<body>
+    <label>Podaj tekst: </label><input type="text" id="text"><button onclick=setText()>&#x2714;</button><br>
+    <label>Wybierz kolor tła: </label><button onclick=setColor("red")>Czerwony</button><button onclick=setColor("blue")>Niebieski</button><button onclick=setColor("yellow")>Żółty</button><br>
+    <label>Wybierz rodzaj obramowania: </label><select id="borderType"><option>Kropkowane</option><option>Kreskowane</option><option>Ciągłe</option></select><button onclick="setBorder()">&#x2714;</button><br>
+    <label>Podaj rozmiar tekstu: </label><input type="number" id="fontSize">px<button onclick="setFontSize()">&#x2714;</button><br>
+    <label>Kolor obramowania: </label><input type="color" id="color_picker"><button onclick=setBorderCollor()>&#x2714;</button><br>
+    <label>Grubosć obramowania </label><input type="number" id="borderSize">px<button onclick="setBorderSize()">&#x2714;</button><br>
+    <button onclick=UpperCase("none")>Normalne litery</button><button onclick=UpperCase("uppercase")>DUŻE LITERY</button><br>
+    <label>Ustaw: </label><label>Pogrubiony </label><input type="checkbox" id="cBold"><label>Pochylony </label><input type="checkbox" id="cItalic"><label>Podkreślony</label><input type="checkbox" id="cUnderline"><button onclick="fontWeight()">&#x2714;</button>
+
+<div id="krolikTestowy">
+
+</div>
+</body>
+</html>
