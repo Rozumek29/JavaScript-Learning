@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Shippori Antique', sans-serif;
+}
+#navbar{
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+.nav-list{
+    list-style-type: none;
+}
+.nav-list .list-item{
+    display: inline-block;
+    padding: 20px 10px;
+}
+#navbar a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+#navbar a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#container{
+    display: flex;
+    width: 100vw;
+    height: 92vh;
+    text-align: center;
+}
+.content{
+    color: whitesmoke;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+}
+#container h1{
+    padding: 10px;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#container #obliczenia{
+    font-weight: bold;
+    letter-spacing: 10px;
+    font-size: 42px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+#container input{
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+    font-family: 'Shippori Antique', sans-serif;
+    color: whitesmoke;
+    width: 15%;
+    height: 10%;
+    background: transparent;
+    border: none;
+    border-bottom: solid 2px whitesmoke;
+}
+#container button{
+    margin-top: 20px;
+    padding: 10px;
+    font-family: 'Shippori Antique', sans-serif;
+    background: transparent;
+    border: solid 2px whitesmoke;
+    color: whitesmoke;
+    font-size: 20px;
+}
+#container button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 50px -5px rgba(255, 255, 255, 1);
+}
+.container_blue_background{
+    background-image: linear-gradient(to bottom, #1c59a7, #1d4e94, #1c4482, #1b3a6f, #18305e);
+}
+.container_red_background{
+    background-image: linear-gradient(to bottom, #a40a0a, #8a030f, #700210, #56020d, #3d0306);
+}
+.container_green_background{
+    background-image: linear-gradient(to bottom, #0aa424, #0a891b, #086e12, #05550a, #033d03);
+}
+.nav_blue_background{
+    background-color: #1C59A7;
+}
+.nav_red_background{
+    background-color: #a40a0a;
+}
+.nav_green_background{
+    background-color: #0aa424;
+}
+.nav_blue_background a:hover{
+    background-color: #1c4482;
+}
+.nav_red_background a:hover{
+    background-color: #700210;
+}
+.nav_green_background a:hover{
+    background-color: #086e12;
+}
+footer {
+    color: whitesmoke;
+    position: absolute;
+    bottom: 5px;
+    margin: auto;
+}

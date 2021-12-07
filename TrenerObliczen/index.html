@@ -1,10 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Trener obliczeń</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-$END$
+<nav id="navbar">
+    <div>TRENER OBLICZEŃ</div>
+    <ul class="nav-list">
+        <a class="list-item" onclick="setDzialanie('dodawanie')">Dodawanie</a>
+        <a class="list-item" onclick="setDzialanie('odejmowanie')">Odejmowanie</a>
+        <a class="list-item" onclick="setDzialanie('mnozenie')">Mnożenie</a>
+        <a class="list-item" onclick="setDzialanie('dzielenie')">Dzielenie</a>
+        <a class="list-item" onclick="startTest()">TEST</a>
+    </ul>
+</nav>
+<main>
+    <div id="container">
+        <div class="content">
+            <p id="points" hidden="true">Twoje punkty: 0</p>
+            <h1>Podaj wartość wyrażenia:</h1>
+            <div class="obliczenia">
+                <label id="obliczenia">0+0=</label><input type="number" id="wynik" value="0"><br>
+                <button onclick="sprawdz()">SPRAWDŹ</button>
+            </div>
+        </div>
+        <footer>
+            <p> Copyright: Kacper Wyrozumialski &copy; 2021</p>
+        </footer>
+    </div>
+</main>
+    <script src="script.js"></script>
 </body>
 </html>
