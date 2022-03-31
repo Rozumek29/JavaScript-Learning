@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <title>Generator kartek świątecznych</title>
@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+<!--Kacper Wyrozumialski-->
 <div class="container-fluid bg-light vh-100 vw-100">
     <div class="row">
         <div class="col-12 text-center p-3">
@@ -39,9 +40,16 @@
 
             <div class="p-2 text-center">
                 <label class="mb-2">Wybierz swój obrazek</label><br>
-                <button type="button" class="btn btn-outline-warning rounded" onclick="Fimmage(1)">1</button>
-                <button type="button" class="btn btn-outline-warning rounded" onclick="Fimmage(2)">2</button>
-                <button type="button" class="btn btn-outline-warning rounded" onclick="Fimmage(3)">3</button>
+                <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                    <input type="radio" class="btn-check" name="btnradio2" id="img-1" autocomplete="off">
+                    <label class="btn btn-outline-warning" for="img-1" onclick="Fimmage(1)">1</label>
+
+                    <input type="radio" class="btn-check" name="btnradio2" id="img-2" autocomplete="off">
+                    <label class="btn btn-outline-warning" for="img-2" onclick="Fimmage(2)">2</label>
+
+                    <input type="radio" class="btn-check" name="btnradio2" id="img-3" autocomplete="off">
+                    <label class="btn btn-outline-warning" for="img-3" onclick="Fimmage(3)">3</label>
+                </div>
                 <br>
 <!--                <input type="file" class="form-control m-2 w-50 mx-auto" id="img-own">-->
             </div>
@@ -91,10 +99,12 @@
         </div>
     </div>
 </div>
+
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 <script src="script.js"></script>
+<!--Kacper Wyrozumialski-->
 </body>
 </html>
